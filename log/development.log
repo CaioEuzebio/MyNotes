@@ -3646,3 +3646,2408 @@ Processing by DocsController#show as HTML
 Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 6435)
 
 
+Started GET "/docs" for ::1 at 2019-10-22 14:15:43 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.5ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 29.3ms | Allocations: 10353)
+Completed 200 OK in 914ms (Views: 907.9ms | ActiveRecord: 0.9ms | Allocations: 1366105)
+
+
+Started GET "/docs/11" for ::1 at 2019-10-22 14:15:45 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:38:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.0ms | Allocations: 1643)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 8564)
+
+
+Started GET "/docs" for ::1 at 2019-10-22 15:05:45 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.5ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 13.9ms | Allocations: 6742)
+Completed 200 OK in 37ms (Views: 32.6ms | ActiveRecord: 0.5ms | Allocations: 14007)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:05:46 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.4ms | Allocations: 1631)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 8213)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:05:57 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.6ms | Allocations: 1632)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms | Allocations: 9008)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/apple/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/docs/12" for ::1 at 2019-10-22 15:06:45 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.6ms | Allocations: 1632)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.1ms | Allocations: 9012)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:06:46 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 6439)
+
+
+Started GET "/docs" for ::1 at 2019-10-22 15:06:48 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.7ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 37.4ms | Allocations: 3756)
+Completed 200 OK in 70ms (Views: 67.3ms | ActiveRecord: 0.7ms | Allocations: 9748)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:06:49 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.2ms | Allocations: 26)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.1ms | Allocations: 6441)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:07:47 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 3.1ms | Allocations: 1592)
+Completed 200 OK in 28ms (Views: 17.8ms | ActiveRecord: 0.8ms | Allocations: 12701)
+
+
+Started GET "/docs" for ::1 at 2019-10-22 15:07:49 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 10.2ms | Allocations: 3802)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms | Allocations: 9784)
+
+
+Started GET "/docs/11" for ::1 at 2019-10-22 15:07:50 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.1ms | Allocations: 6440)
+
+
+Started GET "/docs/edit" for ::1 at 2019-10-22 15:08:47 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 920)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=edit):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs/edit" for ::1 at 2019-10-22 15:09:10 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 943)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=edit):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs" for ::1 at 2019-10-22 15:09:13 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 5.0ms | Allocations: 3784)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.2ms | Allocations: 10699)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:09:14 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.3ms | Allocations: 1631)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 8098)
+
+
+Started GET "/edit" for ::1 at 2019-10-22 15:09:26 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/edit"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs" for ::1 at 2019-10-22 15:09:35 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.6ms | Allocations: 1973)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.3ms | Allocations: 7901)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:09:37 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 6438)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:16:26 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.4ms | Allocations: 2585)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 4221)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It" doc_path(@doc)
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It" doc_path(@doc)
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/apple/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/docs/12" for ::1 at 2019-10-22 15:16:47 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.2ms | Allocations: 2587)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 4212)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It" doc_path(@doc)
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It" doc_path(@doc)
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/docs" for ::1 at 2019-10-22 15:17:07 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 4.6ms | Allocations: 3752)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.2ms | Allocations: 9921)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:17:09 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.5ms | Allocations: 2571)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3344)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It" doc_path(@doc)
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It" doc_path(@doc)
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/docs/12" for ::1 at 2019-10-22 15:22:19 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.4ms | Allocations: 1926)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms | Allocations: 9290)
+
+
+Started GET "/docs" for ::1 at 2019-10-22 15:22:21 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 5.3ms | Allocations: 3748)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 9726)
+
+
+Started GET "/docs/12/edit" for ::1 at 2019-10-22 15:22:24 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/edit.html.haml within layouts/application (Duration: 1.3ms | Allocations: 1679)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2591)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 Fix Doc!
+    2: 
+    3:     = render 'form'
+    4: 
+    5:     = link_to "Calcel", doc_path
+  
+app/views/docs/edit.html.haml:3
+Started GET "/docs/12" for ::1 at 2019-10-22 15:22:25 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 125)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 6534)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:22:26 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 123)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 6539)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:22:30 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 123)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 6536)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:22:32 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 123)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.1ms | Allocations: 6530)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:22:35 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.6ms | Allocations: 123)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 6533)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/apple/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/docs/12" for ::1 at 2019-10-22 15:24:51 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.9ms | Allocations: 2587)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 4213)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It", doc_path(@doc), method :delete, :data {confirm: "Certeza que deseja deletar?"}
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It", doc_path(@doc), method :delete, :data {confirm: "Certeza que deseja deletar?"}
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected '}', expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected ensure, expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected end, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected '}', expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected ensure, expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected end, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected '}', expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected ensure, expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected end, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected '}', expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected ensure, expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected end, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected '}', expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected ensure, expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected end, expecting ')'
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected '}', expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected ensure, expecting ')'
+app/views/docs/show.html.haml:7: syntax error, unexpected end, expecting ')'
+Started GET "/docs/12" for ::1 at 2019-10-22 15:25:53 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.2ms | Allocations: 2589)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 4214)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/docs" for ::1 at 2019-10-22 15:26:01 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 5.3ms | Allocations: 3749)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms | Allocations: 9918)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:26:02 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.6ms | Allocations: 2573)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3346)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/docs/12" for ::1 at 2019-10-22 15:26:08 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.3ms | Allocations: 2575)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3346)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/docs/" for ::1 at 2019-10-22 15:26:10 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.6ms | Allocations: 1973)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 7901)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-22 15:26:12 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.4ms | Allocations: 2575)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 3347)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/docs/" for ::1 at 2019-10-22 15:26:49 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 15.9ms | Allocations: 3749)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.2ms | Allocations: 10628)
+
+
+Started GET "/docs/10" for ::1 at 2019-10-22 15:26:52 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.6ms | Allocations: 2587)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 3500)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1= @doc.title
+%p= @doc.content
+
+= link_to "All Docs", docs_path
+= link_to "Fix Doc", edit_doc_path(@doc)
+= link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+):
+1:    %h1= @doc.title
+2:    %p= @doc.content
+3:    
+4:    = link_to "All Docs", docs_path
+5:    = link_to "Fix Doc", edit_doc_path(@doc)
+6:    = link_to "Trash It", doc_path(@doc), method :delete, data: { confirm: "Certeza que deseja deletar?" }
+  
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/docs/show.html.haml:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/docs/10" for ::1 at 2019-10-22 15:27:21 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.7ms | Allocations: 1949)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.1ms | Allocations: 9307)
+
+
+Started DELETE "/docs/10" for ::1 at 2019-10-22 15:27:24 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8xWlF/3HBr6Xx0IGHjL84FM9p/AOiUOZhsHCHkAH2wXARx/UTXrQKJAjFcpUpNKtzOf83H/yrXYRd192MEYYzw==", "id"=>"10"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.4ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 10]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs/10
+Completed 302 Found in 6ms (ActiveRecord: 1.9ms | Allocations: 2638)
+
+
+Started GET "/docs/10" for ::1 at 2019-10-22 15:27:24 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 916)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=10):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs/" for ::1 at 2019-10-22 15:27:34 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.9ms | Allocations: 3636)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 9620)
+
+
+Started GET "/docs/1" for ::1 at 2019-10-22 15:27:38 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 6560)
+
+
+Started DELETE "/docs/1" for ::1 at 2019-10-22 15:27:40 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8tcttk7V8i91LDMjOtGybr2JRUxIpvsSi12cC1xUYunBhZd1/mgkuXLIZO9wR5wjIlMeYDndFf0c6wFjLBWhIw==", "id"=>"1"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.5ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs/1
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms | Allocations: 2565)
+
+
+Started GET "/docs/1" for ::1 at 2019-10-22 15:27:40 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 916)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=1):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs/" for ::1 at 2019-10-22 15:27:44 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.7ms | Allocations: 1741)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.3ms | Allocations: 7665)
+
+
+Started GET "/docs/2" for ::1 at 2019-10-22 15:27:47 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6556)
+
+
+Started DELETE "/docs/2" for ::1 at 2019-10-22 15:27:51 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oxu3byztISYJByDXxHbvREVtjEPIXqipM8CYWWUJsjKQSQ2snFD3sA7jdxuO4MEJ2rfXb7klRkakdgUxFUhx+A==", "id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.3ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs/2
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms | Allocations: 2567)
+
+
+Started GET "/docs/2" for ::1 at 2019-10-22 15:27:51 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 916)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=2):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/" for ::1 at 2019-10-23 06:36:15 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.7ms | Allocations: 196)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 783)
+
+
+Started GET "/new" for ::1 at 2019-10-23 06:36:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/new/doc" for ::1 at 2019-10-23 06:36:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new/doc"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-10-23 06:36:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs" for ::1 at 2019-10-23 06:38:36 -0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.5ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 15.2ms | Allocations: 10017)
+Completed 200 OK in 923ms (Views: 916.8ms | ActiveRecord: 1.0ms | Allocations: 1365769)
+
+
+Started GET "/docs/6" for ::1 at 2019-10-23 06:38:40 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.5ms | Allocations: 1963)
+Completed 200 OK in 17ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 8882)
+
+
+Started DELETE "/docs/6" for ::1 at 2019-10-23 06:38:43 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fM4/cfkB6p3fTfp5lDMgzyYwKtgzTnWmmwZjnevGq7tPnIWySbw8C9iprbXepQ6Cuepx9EI1m0kMsP71m4docQ==", "id"=>"6"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.3ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 5ms (ActiveRecord: 1.9ms | Allocations: 2614)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 06:38:43 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.4ms | Allocations: 1518)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.3ms | Allocations: 7448)
+
+
+Started GET "/docs/3" for ::1 at 2019-10-23 06:38:45 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 145)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 6573)
+
+
+Started DELETE "/docs/3" for ::1 at 2019-10-23 06:38:48 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lFdFTsYZoLH7OX40hFca46DX619Fuiz6jvrmtgcF01enBf+NdqR2J/zdKfjOwTSuPw2wczTBwhUZTHved0QQnQ==", "id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.3ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms | Allocations: 2544)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 06:38:48 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1403)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 7335)
+
+
+Started GET "/docs/4" for ::1 at 2019-10-23 06:38:52 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 6558)
+
+
+Started DELETE "/docs/4" for ::1 at 2019-10-23 06:38:56 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7KzZv2zbGyhj79sYUopL1jXauWmFjI9jwKT1fzmPkwXf/mN83GbNvmQLjNQYHGWbqgDiRfT3YYxXEmgXSc5Qzw==", "id"=>"4"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.4ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms | Allocations: 2539)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 06:38:56 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.0ms | Allocations: 1290)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 7217)
+
+
+Started GET "/docs/5" for ::1 at 2019-10-23 06:38:58 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.6ms | Allocations: 144)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 6558)
+
+
+Started DELETE "/docs/5" for ::1 at 2019-10-23 06:39:00 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wZA3TlCodcl2ETJGqEREGjL4/FPP7jAU1j5fDUolIlrywo2N4BWjX3H1ZYri0mpXrSKnf76V3vtBiMJlOmThkA==", "id"=>"5"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.4ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 6ms (ActiveRecord: 2.4ms | Allocations: 2546)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 06:39:00 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.3ms | Allocations: 1177)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.3ms | Allocations: 7105)
+
+
+Started GET "/docs/11" for ::1 at 2019-10-23 06:39:24 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 6555)
+
+
+Started GET "/docs/11/edit" for ::1 at 2019-10-23 06:39:26 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/edit.html.haml within layouts/application (Duration: 7.6ms | Allocations: 3886)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms | Allocations: 4802)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 Fix Doc!
+    2: 
+    3:     = render 'form'
+    4: 
+    5:     = link_to "Calcel", doc_path
+  
+app/views/docs/edit.html.haml:3
+Started GET "/docs/11/edit" for ::1 at 2019-10-23 06:40:41 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/edit.html.haml within layouts/application (Duration: 1.0ms | Allocations: 1693)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 3359)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 Fix Doc!
+    2: 
+    3:     = render 'form'
+    4: 
+    5:     = link_to "Calcel", doc_path
+  
+app/views/docs/edit.html.haml:3
+Started GET "/docs/5" for ::1 at 2019-10-23 06:40:45 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 915)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=5):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs/4" for ::1 at 2019-10-23 06:40:47 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 915)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=4):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs" for ::1 at 2019-10-23 06:40:50 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.8ms | Allocations: 2985)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms | Allocations: 9195)
+
+
+Started GET "/docs/7" for ::1 at 2019-10-23 06:40:52 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.6ms | Allocations: 1944)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.1ms | Allocations: 8409)
+
+
+Started GET "/docs/7/edit" for ::1 at 2019-10-23 06:40:53 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/edit.html.haml within layouts/application (Duration: 1.1ms | Allocations: 1677)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2449)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 Fix Doc!
+    2: 
+    3:     = render 'form'
+    4: 
+    5:     = link_to "Calcel", doc_path
+  
+app/views/docs/edit.html.haml:3
+Started GET "/docs/7" for ::1 at 2019-10-23 06:41:38 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1945)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.1ms | Allocations: 9311)
+
+
+Started GET "/docs/7/edit" for ::1 at 2019-10-23 06:41:39 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/edit.html.haml within layouts/application (Duration: 1.2ms | Allocations: 1673)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2585)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 Fix Doc!
+    2: 
+    3:     = render 'form'
+    4:     = link_to "Calcel", doc_path
+  
+app/views/docs/edit.html.haml:3
+Started GET "/docs/7" for ::1 at 2019-10-23 07:08:50 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.6ms | Allocations: 1945)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms | Allocations: 9332)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:08:50 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.7ms | Allocations: 2965)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 8947)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-23 07:08:51 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 146)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 6558)
+
+
+Started GET "/docs/12/edit" for ::1 at 2019-10-23 07:08:52 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 38.0ms | Allocations: 15853)
+  Rendered docs/edit.html.haml within layouts/application (Duration: 40.0ms | Allocations: 17696)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.1ms | Allocations: 23965)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-23 07:09:00 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.1ms | Allocations: 6560)
+
+
+Started GET "/docs/12/edit" for ::1 at 2019-10-23 07:09:02 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.5ms | Allocations: 5827)
+  Rendered docs/edit.html.haml within layouts/application (Duration: 7.8ms | Allocations: 5950)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.1ms | Allocations: 12078)
+
+
+Started PATCH "/docs/12" for ::1 at 2019-10-23 07:09:03 -0300
+Processing by DocsController#update as HTML
+  Parameters: {"authenticity_token"=>"M89dHr1iNE3a9H2skw7qH9g2wZWA1AOAUChTnQp2ieHNIPlsSeGERvfpNDUgPHelxi0+vKBMkjtIRnFu2p1Yrg==", "doc"=>{"title"=>"asas", "content"=>"asasas"}, "commit"=>"Update Doc", "id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Redirected to http://localhost:3000/docs/12
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1238)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-23 07:09:03 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 6552)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:09:06 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.2ms | Allocations: 1178)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 7104)
+
+
+Started GET "/docs/7" for ::1 at 2019-10-23 07:39:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms | Allocations: 6567)
+
+
+Started DELETE "/docs/7" for ::1 at 2019-10-23 07:39:46 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"m31TDfcGKDv/xjo5iR+AvxpgsEfcR4G1EfCgYX0NIYqoL+nOR7v+rfgibfXDia7yhbrra608b1qGRj0JDUziQA==", "id"=>"7"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.7ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 6ms (ActiveRecord: 2.2ms | Allocations: 2548)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:39:46 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.8ms | Allocations: 1066)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 6991)
+
+
+Started GET "/docs/8" for ::1 at 2019-10-23 07:39:47 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 6560)
+
+
+Started DELETE "/docs/8" for ::1 at 2019-10-23 07:39:49 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"a3CkwCJFamHW+NzYdurO+/2ZjZFoyVM5t5EIRzOadIJYIh4Dkvi899EcixQ8fOC2YkPWvRmyvdYgJ5UvQ9u3SA==", "id"=>"8"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.2ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms | Allocations: 2536)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:39:49 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.9ms | Allocations: 950)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.3ms | Allocations: 6877)
+
+
+Started GET "/docs/9" for ::1 at 2019-10-23 07:39:50 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 6552)
+
+
+Started DELETE "/docs/9" for ::1 at 2019-10-23 07:39:52 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WW+N5MVHvvwx5Ge9vbtCGzCpkPimGbGeNaqRg2wwEWpqPTcndfpoajYAMHH3LWxWr3PL1NdiX3GiHAzrHHHSoA==", "id"=>"9"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.4ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms | Allocations: 2541)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:39:52 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.7ms | Allocations: 837)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 6762)
+
+
+Started GET "/docs/11" for ::1 at 2019-10-23 07:39:53 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 144)
+Completed 200 OK in 28ms (Views: 6.2ms | ActiveRecord: 0.2ms | Allocations: 6557)
+
+
+Started DELETE "/docs/11" for ::1 at 2019-10-23 07:39:56 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HGPEhsMrZxvKnxK7ULCFXAAtyqzt79rwLYjikXYATuIvMX5Fc5axjc17RXcaJqsRn/eRgJyUNB+6Pn/5BkGNKA==", "id"=>"11"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.3ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 11]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms | Allocations: 2539)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:39:56 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.4ms | Allocations: 724)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.2ms | Allocations: 6654)
+
+
+Started GET "/docs/12" for ::1 at 2019-10-23 07:39:57 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6557)
+
+
+Started DELETE "/docs/12" for ::1 at 2019-10-23 07:39:59 -0300
+Processing by DocsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Tn5dSnGz6F8FmxwSPrzWuVddW7mXAVe11mTIeBUfNsF9LOeJwQ4+yQJ/S950Kvj0yIcAleZ6uVpB0lUQZV71Cw==", "id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[36mDoc Destroy (0.3ms)[0m  [1m[31mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 12]]
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:38:in `destroy'
+Redirected to http://localhost:3000/docs
+Completed 302 Found in 5ms (ActiveRecord: 2.1ms | Allocations: 2539)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:39:59 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.1ms | Allocations: 586)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 6518)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:40:03 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.5ms | Allocations: 5759)
+  Rendered docs/new.html.haml within layouts/application (Duration: 9.2ms | Allocations: 7363)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 13145)
+
+
+Started POST "/docs" for ::1 at 2019-10-23 07:42:24 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"73XXmrk81kxVIek0Ld7aix4y3dUmgswrFHY7imrt9PDcJ21ZCYEA2lLFvvhnSPTGgeiG+Vf5IsSDwKbiGqw3Og==", "doc"=>{"title"=>"Estudos reforçam tese de que Terras são comuns no Universo", "content"=>"Embora conheçamos a essa altura muitos exoplanetas com porte similar ao da Terra, a verdade é que os astrônomos não sabem ainda se eles de fato se assemelham ao nosso. Poderia sua composição ser inteiramente diferente? Dois estudos desconexos e recentes parecem apontar na direção da mesmice, aumentando a chance de encontrarmos mundos realmente análogos."}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.6ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Estudos reforçam tese de que Terras são comuns no Universo"], ["content", "Embora conheçamos a essa altura muitos exoplanetas com porte similar ao da Terra, a verdade é que os astrônomos não sabem ainda se eles de fato se assemelham ao nosso. Poderia sua composição ser inteiramente diferente? Dois estudos desconexos e recentes parecem apontar na direção da mesmice, aumentando a chance de encontrarmos mundos realmente análogos."], ["created_at", "2019-10-23 10:42:24.253532"], ["updated_at", "2019-10-23 10:42:24.253532"]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/13
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms | Allocations: 2503)
+
+
+Started GET "/docs/13" for ::1 at 2019-10-23 07:42:24 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 148)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.1ms | Allocations: 6560)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:42:27 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.5ms | Allocations: 725)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 6649)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:42:31 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 6.6ms | Allocations: 5791)
+  Rendered docs/new.html.haml within layouts/application (Duration: 6.8ms | Allocations: 5867)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 11499)
+
+
+Started POST "/docs" for ::1 at 2019-10-23 07:42:47 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"/SLbiBXcxZKdKaEHEIa0sTJE0E6xNir4HYZIO8b5janOcGFLpWETBJrN9staEJr8rZ6LYsBNxBeKMNVTtrhOYw==", "doc"=>{"title"=>"O misterioso caso do planetão e a estrelinha", "content"=>"Um exoplaneta descoberto a apenas 30 anos-luz da Terra deixou os astrônomos coçando a cabeça. Orbitando uma estrela com um décimo da massa do Sol, ele tem pelo menos metade da massa de Júpiter. O problema: pelos modelos mais aceitos de formação planetária, uma estrela desse tamanho não deveria ter um planeta tão grande assim."}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.3ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "O misterioso caso do planetão e a estrelinha"], ["content", "Um exoplaneta descoberto a apenas 30 anos-luz da Terra deixou os astrônomos coçando a cabeça. Orbitando uma estrela com um décimo da massa do Sol, ele tem pelo menos metade da massa de Júpiter. O problema: pelos modelos mais aceitos de formação planetária, uma estrela desse tamanho não deveria ter um planeta tão grande assim."], ["created_at", "2019-10-23 10:42:47.486085"], ["updated_at", "2019-10-23 10:42:47.486085"]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/14
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms | Allocations: 2447)
+
+
+Started GET "/docs/14" for ::1 at 2019-10-23 07:42:47 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 6557)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:42:49 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.5ms | Allocations: 829)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 6753)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:42:51 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.0ms | Allocations: 5792)
+  Rendered docs/new.html.haml within layouts/application (Duration: 7.2ms | Allocations: 5868)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 11500)
+
+
+Started POST "/docs" for ::1 at 2019-10-23 07:43:12 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"+sh35Of6PfG1AebLoV2v4JpoJNakmjVjdciWDngu3jbJms0nV0frZ7LlsQfry4GtBbJ/+tXh24zifgtmCG8d/A==", "doc"=>{"title"=>"Nobel premia exoplanetas, mas deixa de fora seu primeiro descobridor", "content"=>"Não há dúvida de que os premiados com o Nobel em Física deste ano mudaram para sempre nossa forma de ver o cosmos e nosso lugar nele. James Peebles é um dos principais artífices do chamado modelo cosmológico padrão, que fez do estudo do nascimento e da evolução do Universo uma ciência exata, e duvido."}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.3ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Nobel premia exoplanetas, mas deixa de fora seu primeiro descobridor"], ["content", "Não há dúvida de que os premiados com o Nobel em Física deste ano mudaram para sempre nossa forma de ver o cosmos e nosso lugar nele. James Peebles é um dos principais artífices do chamado modelo cosmológico padrão, que fez do estudo do nascimento e da evolução do Universo uma ciência exata, e duvido."], ["created_at", "2019-10-23 10:43:12.428372"], ["updated_at", "2019-10-23 10:43:12.428372"]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/15
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms | Allocations: 2447)
+
+
+Started GET "/docs/15" for ::1 at 2019-10-23 07:43:12 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 6553)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:43:15 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.3ms | Allocations: 942)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 6863)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:43:18 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 6.1ms | Allocations: 5792)
+  Rendered docs/new.html.haml within layouts/application (Duration: 6.3ms | Allocations: 5868)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 11500)
+
+
+Started POST "/docs" for ::1 at 2019-10-23 07:43:38 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"s31/BMBD8QGacdoVJm0ZLiF04zWLQW3eD9eHI+EabrmAL8XHcP4nl52Vjdls+zdjvq64Gfo6gzGYYRpLkVutcw==", "doc"=>{"title"=>"Com mais 20 luas descobertas, Saturno supera Júpiter em número de satélites", "content"=>"É quase como um clássico futebolístico, disputado há décadas: quem tem mais luas, Júpiter ou Saturno? No mais recente embate, deu Saturno. Uma equipe liderada por Scott Sheppard, da Carnegie Institution for Science, nos EUA, descobriu mais 20 satélites naturais ao redor do gigante dos anéis, elevando a contagem a 82. Júpiter, com isso, passou."}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.3ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Com mais 20 luas descobertas, Saturno supera Júpiter em número de satélites"], ["content", "É quase como um clássico futebolístico, disputado há décadas: quem tem mais luas, Júpiter ou Saturno? No mais recente embate, deu Saturno. Uma equipe liderada por Scott Sheppard, da Carnegie Institution for Science, nos EUA, descobriu mais 20 satélites naturais ao redor do gigante dos anéis, elevando a contagem a 82. Júpiter, com isso, passou."], ["created_at", "2019-10-23 10:43:38.225736"], ["updated_at", "2019-10-23 10:43:38.225736"]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/16
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms | Allocations: 2445)
+
+
+Started GET "/docs/16" for ::1 at 2019-10-23 07:43:38 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.1ms | Allocations: 6556)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:43:39 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.9ms | Allocations: 1048)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 6983)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:44:00 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 21.1ms | Allocations: 5802)
+  Rendered docs/new.html.haml within layouts/application (Duration: 21.3ms | Allocations: 5878)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 11514)
+
+
+Started POST "/docs" for ::1 at 2019-10-23 07:44:20 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"xBn0h+cIKPi3Y/84xBKEjEfmkEk0pdd+iHNYNHywcAP3S05EV7X+brCHqPSOhKrB2DzLZUXeOZEfxcVcDPGzyQ==", "doc"=>{"title"=>"Um potencial novo visitante interestelar", "content"=>"No último dia 30 de agosto, o astrônomo amador ucraniano Gennady Borisov acreditou ter descoberto mais um cometa. O que ele não imaginava, ao seguir o objeto nos dias seguintes, é que fosse acabar sendo o segundo vagabundo interestelar a ser flagrado em visita ao nosso Sistema Solar. Após 12 dias de acompanhamento, esta é no momento a principal hipótese para explicar a presença do objeto catalogado como C/2019 Q4 (Borisov).\r\n\r\nA história lembra um pouco a do celebrado 1I/2017 U1 (‘Oumuamua), o primeiro objeto interestelar a ser detectado numa visita a nosso Sistema Solar. Só que agora tivemos mais sorte: se o ‘Oumuamua nós só vimos depois que ele já estava indo embora, o que gerou um rápido frenesi de observações, este novo objeto foi detectado ainda na “vinda”, a 3 unidades astronômicas do Sol (uma unidade astronômica, 1 UA, é a distância média Terra-Sol, cerca de 150 milhões de km).\r\n\r\nEle deve atingir o periélio (máxima aproximação do Sol) ao redor de 7 de dezembro e passará meses ao alcance dos telescópios. Trata-se também de um objeto bem maior que o ‘Oumuamua, o que facilitará sua observação. Ou seja, a diversão só está começando.\r\n\r\nE a tarefa número zero é confirmar que ele é mesmo interestelar. Todas as indicações até agora dão conta de que sim, mas ainda não dá para cravar. “Existem duas hipóteses de órbita que caem bem”, explica Cristóvão Jacques, astrônomo brasileiro que opera o observatório Sonear e é especialista na detecção de asteroides e cometas. “A muito hiperbólica, que seria a de um objeto interestelar, e a parabólica, com efeitos não gravitacionais pronunciados. Ambas satisfazem as observações. Só o tempo dirá qual a mais certa.”"}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.3ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Um potencial novo visitante interestelar"], ["content", "No último dia 30 de agosto, o astrônomo amador ucraniano Gennady Borisov acreditou ter descoberto mais um cometa. O que ele não imaginava, ao seguir o objeto nos dias seguintes, é que fosse acabar sendo o segundo vagabundo interestelar a ser flagrado em visita ao nosso Sistema Solar. Após 12 dias de acompanhamento, esta é no momento a principal hipótese para explicar a presença do objeto catalogado como C/2019 Q4 (Borisov).\r\n\r\nA história lembra um pouco a do celebrado 1I/2017 U1 (‘Oumuamua), o primeiro objeto interestelar a ser detectado numa visita a nosso Sistema Solar. Só que agora tivemos mais sorte: se o ‘Oumuamua nós só vimos depois que ele já estava indo embora, o que gerou um rápido frenesi de observações, este novo objeto foi detectado ainda na “vinda”, a 3 unidades astronômicas do Sol (uma unidade astronômica, 1 UA, é a distância média Terra-Sol, cerca de 150 milhões de km).\r\n\r\nEle deve atingir o periélio (máxima aproximação do Sol) ao redor de 7 de dezembro e passará meses ao alcance dos telescópios. Trata-se também de um objeto bem maior que o ‘Oumuamua, o que facilitará sua observação. Ou seja, a diversão só está começando.\r\n\r\nE a tarefa número zero é confirmar que ele é mesmo interestelar. Todas as indicações até agora dão conta de que sim, mas ainda não dá para cravar. “Existem duas hipóteses de órbita que caem bem”, explica Cristóvão Jacques, astrônomo brasileiro que opera o observatório Sonear e é especialista na detecção de asteroides e cometas. “A muito hiperbólica, que seria a de um objeto interestelar, e a parabólica, com efeitos não gravitacionais pronunciados. Ambas satisfazem as observações. Só o tempo dirá qual a mais certa.”"], ["created_at", "2019-10-23 10:44:20.068086"], ["updated_at", "2019-10-23 10:44:20.068086"]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/17
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms | Allocations: 2444)
+
+
+Started GET "/docs/17" for ::1 at 2019-10-23 07:44:20 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 6558)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:44:27 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.9ms | Allocations: 1173)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 7103)
+
+
+Started GET "/docs/13" for ::1 at 2019-10-23 07:46:54 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.1ms | Allocations: 6559)
+
+
+Started GET "/docs/14" for ::1 at 2019-10-23 07:46:56 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6558)
+
+
+Started GET "/docs/16" for ::1 at 2019-10-23 07:46:58 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 6563)
+
+
+Started GET "/docs/17" for ::1 at 2019-10-23 07:47:00 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 146)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.2ms | Allocations: 6556)
+
+
+Started GET "/docs/16" for ::1 at 2019-10-23 07:47:01 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 146)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 6564)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:49:37 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 267.6ms | Allocations: 156803)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.1ms | Allocations: 157945)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `doc_path_new' for #<#<Class:0x00007fd0a5263f40>:0x00007fd0a52620a0>
+Did you mean?  doc_path):
+    2:     %h2= link_to doc.title, doc
+    3:     %p= time_ago_in_words(doc.created_at)
+    4:     %p= truncate(doc.content, lenght:50)
+    5: = link_to "Create New Doc", doc_path_new
+  
+app/views/docs/index.html.haml:5
+Started GET "/docs" for ::1 at 2019-10-23 07:50:19 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.4ms | Allocations: 3878)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 5018)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    2:     %h2= link_to doc.title, doc
+    3:     %p= time_ago_in_words(doc.created_at)
+    4:     %p= truncate(doc.content, lenght:50)
+    5: = link_to "Create New Doc", doc_path
+  
+app/views/docs/index.html.haml:5
+Started GET "/docs" for ::1 at 2019-10-23 07:50:37 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.9ms | Allocations: 3467)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 4607)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    2:     %h2= link_to doc.title, doc
+    3:     %p= time_ago_in_words(doc.created_at)
+    4:     %p= truncate(doc.content, lenght:50)
+    5:     = link_to "Create New Doc", doc_path
+  
+app/views/docs/index.html.haml:5
+app/views/docs/index.html.haml:1
+Started GET "/docs" for ::1 at 2019-10-23 07:53:18 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.1ms | Allocations: 3151)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms | Allocations: 10034)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:53:21 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 9.3ms | Allocations: 7245)
+  Rendered docs/new.html.haml within layouts/application (Duration: 11.2ms | Allocations: 8985)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 14759)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:53:49 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 10.2ms | Allocations: 7228)
+  Rendered docs/new.html.haml within layouts/application (Duration: 12.0ms | Allocations: 9870)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 10993)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    2: 
+    3: = render 'form'
+    4: 
+    5: = link_to "Calcel", doc_path
+  
+app/views/docs/new.html.haml:5
+Started GET "/docs/new" for ::1 at 2019-10-23 07:54:16 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 8.3ms | Allocations: 7243)
+  Rendered docs/new.html.haml within layouts/application (Duration: 10.5ms | Allocations: 9879)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 11008)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    1: %h1 New Doc!
+    2: 
+    3: = render 'form'
+    4: = link_to "Calcel", doc_path
+  
+app/views/docs/new.html.haml:4
+Started GET "/docs/new" for ::1 at 2019-10-23 07:54:28 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 9.7ms | Allocations: 7243)
+  Rendered docs/new.html.haml within layouts/application (Duration: 12.3ms | Allocations: 9872)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 11001)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    1: %h1 New Doc!
+    2: = render 'form'
+    3: = link_to "Calcel", doc_path
+  
+app/views/docs/new.html.haml:3
+Started GET "/docs/17" for ::1 at 2019-10-23 07:54:38 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1947)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms | Allocations: 8600)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:54:41 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 8.0ms | Allocations: 5814)
+  Rendered docs/new.html.haml within layouts/application (Duration: 8.6ms | Allocations: 6727)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 7003)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    1: %h1 New Doc!
+    2: = render 'form'
+    3: = link_to "Calcel", doc_path
+  
+app/views/docs/new.html.haml:3
+Started GET "/docs/new" for ::1 at 2019-10-23 07:54:52 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 10.1ms | Allocations: 7241)
+  Rendered docs/new.html.haml within layouts/application (Duration: 11.4ms | Allocations: 8974)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 15651)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:55:49 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 130.0ms | Allocations: 81186)
+  Rendered docs/new.html.haml within layouts/application (Duration: 131.7ms | Allocations: 82917)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms | Allocations: 84042)
+
+
+  
+ActionView::Template::Error (undefined method `buton' for #<SimpleForm::FormBuilder:0x00007fd0a53c2198>
+Did you mean?  button):
+    2: 	= f.input :title
+    3: 	= f.input :content
+    4: 	= f.button :submit
+    5: 	= f.buton :cancel
+  
+app/views/docs/_form.html.haml:5
+app/views/docs/_form.html.haml:1
+app/views/docs/new.html.haml:2
+Started GET "/docs/new" for ::1 at 2019-10-23 07:56:01 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 8.7ms | Allocations: 7239)
+  Rendered docs/new.html.haml within layouts/application (Duration: 10.7ms | Allocations: 8972)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 15649)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:56:42 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 9.1ms | Allocations: 8268)
+  Rendered docs/new.html.haml within layouts/application (Duration: 11.0ms | Allocations: 9999)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 11122)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"docs"}, missing required keys: [:id]):
+    2: 	= f.input :title
+    3: 	= f.input :content
+    4: 	= f.button :submit
+    5: = link_to "Calcel", doc_path
+  
+app/views/docs/_form.html.haml:5
+app/views/docs/new.html.haml:2
+Started GET "/docs/new" for ::1 at 2019-10-23 07:56:59 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.7ms | Allocations: 7247)
+  Rendered docs/new.html.haml within layouts/application (Duration: 9.1ms | Allocations: 8980)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 15657)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 07:57:00 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 4.4ms | Allocations: 3148)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 9126)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-23 07:57:03 -0300
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.7ms | Allocations: 5794)
+  Rendered docs/new.html.haml within layouts/application (Duration: 8.0ms | Allocations: 5870)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 11503)
+
+
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20191023120619)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191023120619"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/user/sign_up" for ::1 at 2019-10-23 09:07:48 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/user/sign_up"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2019-10-23 09:07:59 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:08:06 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 547)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 41.5ms | Allocations: 16591)
+Completed 200 OK in 811ms (Views: 803.4ms | ActiveRecord: 0.5ms | Allocations: 1377338)
+
+
+Started POST "/users" for ::1 at 2019-10-23 09:08:36 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"cXP3xp5qjzJSTjJEglHqYSojN4tP2Im2u+/S4hn6esFCIU0FLtdZpFWqZYjIx8Qstflspz6jZ1ksWU+Kabu5Cw==", "user"=>{"email"=>"user1@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user1@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "user1@example.com"], ["encrypted_password", "$2a$11$e3GGh1oSytm/Jg.xoH4seOs5eCB3Qr3K2svqlUL7G96fwOv6uo2v."], ["created_at", "2019-10-23 12:08:36.622188"], ["updated_at", "2019-10-23 12:08:36.622188"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 136ms (ActiveRecord: 1.4ms | Allocations: 10347)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:10:17 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.5ms | Allocations: 7155)
+
+
+Started GET "/" for ::1 at 2019-10-23 09:10:17 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.7ms | Allocations: 203)
+Completed 200 OK in 22ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 798)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:10:21 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1819)
+
+
+Started GET "/" for ::1 at 2019-10-23 09:10:21 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 191)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 729)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:10:26 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms | Allocations: 1766)
+
+
+Started GET "/" for ::1 at 2019-10-23 09:10:26 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 8)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 235)
+
+
+Started GET "/new" for ::1 at 2019-10-23 09:10:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs" for ::1 at 2019-10-23 09:10:37 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 9.5ms | Allocations: 7848)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 1.0ms | Allocations: 15041)
+
+
+Started GET "/docs/15" for ::1 at 2019-10-23 09:10:45 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.8ms | Allocations: 1956)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 8573)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 09:10:50 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.2ms | Allocations: 1264)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 7218)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:10:58 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1763)
+
+
+Started GET "/" for ::1 at 2019-10-23 09:10:58 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 234)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/apple/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:11:41 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1763)
+
+
+Started GET "/" for ::1 at 2019-10-23 09:11:41 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.7ms | Allocations: 7)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 236)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-23 09:11:54 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1775)
+
+
+Started GET "/" for ::1 at 2019-10-23 09:11:54 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 233)
+
+
+Started GET "/users" for ::1 at 2019-10-23 09:11:56 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-10-23 09:12:21 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1852)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddUseridToDocs (20191023121356)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "docs" ADD "iser_id" integer[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191023121356"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY "docs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/docs" for ::1 at 2019-10-23 10:13:38 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.5ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 7.4ms | Allocations: 4249)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.5ms | Allocations: 10572)
+
+
+Started GET "/docs/17" for ::1 at 2019-10-23 10:13:41 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 149)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 6702)
+
+
+Started GET "/docs/sign_out" for ::1 at 2019-10-23 10:14:02 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"sign_out"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 920)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Doc with 'id'=sign_out):
+  
+app/controllers/docs_controller.rb:46:in `find_doc'
+Started GET "/docs" for ::1 at 2019-10-23 10:14:11 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.3ms | Allocations: 1309)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 7260)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 10:14:17 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.3ms | Allocations: 1309)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 7264)
+
+
+Started GET "/docs/17" for ::1 at 2019-10-23 10:14:18 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms | Allocations: 6587)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-23 10:14:25 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.3ms | Allocations: 6496)
+
+
+Started GET "/" for ::1 at 2019-10-23 10:14:25 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 233)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-23 10:14:58 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1850)
+
+
+Started GET "/" for ::1 at 2019-10-23 10:14:58 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 233)
+
+
+Started GET "/welcome/index" for ::1 at 2019-10-23 10:32:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 1.0ms | Allocations: 1430)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 7991)
+
+
+Started GET "/welcome" for ::1 at 2019-10-23 10:32:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-23 10:32:51 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 234)
+
+
+Started GET "/index" for ::1 at 2019-10-23 10:34:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2019-10-23 10:34:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 5939)
+
+
+Started GET "/welcome/index" for ::1 at 2019-10-23 10:34:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
