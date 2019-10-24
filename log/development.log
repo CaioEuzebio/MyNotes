@@ -7922,3 +7922,1691 @@ Processing by DocsController#index as HTML
 Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 7383)
 
 
+Started GET "/docs/13" for ::1 at 2019-10-23 16:34:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mDoc Load (0.5ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 3.1ms | Allocations: 1971)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.5ms | Allocations: 8475)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:34:10 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.4ms | Allocations: 1318)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 7358)
+
+
+Started GET "/docs/15" for ::1 at 2019-10-23 16:34:11 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 146)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 6574)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:34:12 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.2ms | Allocations: 1296)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 7341)
+
+
+Started GET "/docs/17" for ::1 at 2019-10-23 16:34:14 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 146)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 6572)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:34:16 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1296)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 7343)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:39:55 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1316)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 7358)
+
+
+Started GET "/docs/13" for ::1 at 2019-10-23 16:39:57 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 6594)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:39:58 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.4ms | Allocations: 1296)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.1ms | Allocations: 7339)
+
+
+Started GET "/docs/14" for ::1 at 2019-10-23 16:39:59 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 6575)
+
+
+Started GET "/docs/14/edit" for ::1 at 2019-10-23 16:40:01 -0300
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 9.9ms | Allocations: 7598)
+  Rendered docs/edit.html.haml within layouts/application (Duration: 13.3ms | Allocations: 9439)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.1ms | Allocations: 15726)
+
+
+Started PATCH "/docs/14" for ::1 at 2019-10-23 16:40:02 -0300
+Processing by DocsController#update as HTML
+  Parameters: {"authenticity_token"=>"lrWihYCt/k/HINktRIkP47Vvy5lBMNOLe/RmYzN7/azukL13X04M+0xizG48/OTmdknKhecxGPWTQ5UdSYpXYg==", "doc"=>{"title"=>"O misterioso caso do planetão e a estrelinha", "content"=>"Um exoplaneta descoberto a apenas 30 anos-luz da Terra deixou os astrônomos coçando a cabeça. Orbitando uma estrela com um décimo da massa do Sol, ele tem pelo menos metade da massa de Júpiter. O problema: pelos modelos mais aceitos de formação planetária, uma estrela desse tamanho não deveria ter um planeta tão grande assim."}, "commit"=>"Update Doc", "id"=>"14"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 6.6ms | Allocations: 5610)
+  Rendered docs/edit.html.haml within layouts/application (Duration: 6.9ms | Allocations: 5734)
+Completed 200 OK in 25ms (Views: 12.8ms | ActiveRecord: 0.1ms | Allocations: 15709)
+
+
+Started PATCH "/docs/14" for ::1 at 2019-10-23 16:40:05 -0300
+Processing by DocsController#update as HTML
+  Parameters: {"authenticity_token"=>"GLWHPfJq8bnzKlNuA82svPSO3PB15OV4c4Tcyg1F+CyakgNLgkvUbFqvtxhjoVdNFrjq7jXJUa+9Er2zY9c4Ng==", "doc"=>{"title"=>"O misterioso caso do planetão e a estrelinha", "content"=>"Um exoplaneta descoberto a apenas 30 anos-luz da Terra deixou os astrônomos coçando a cabeça. Orbitando uma estrela com um décimo da massa do Sol, ele tem pelo menos metade da massa de Júpiter. O problema: pelos modelos mais aceitos de formação planetária, uma estrela desse tamanho não deveria ter um planeta tão grande assim."}, "commit"=>"Update Doc", "id"=>"14"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.0ms | Allocations: 5601)
+  Rendered docs/edit.html.haml within layouts/application (Duration: 7.5ms | Allocations: 5724)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.1ms | Allocations: 13173)
+
+
+Started PATCH "/docs/14" for ::1 at 2019-10-23 16:40:06 -0300
+Processing by DocsController#update as HTML
+  Parameters: {"authenticity_token"=>"Fb3Fnt1JUKypbSOJYJD+CxlA4e3pvA7qdfvbTtjRS2mXmkHorWh1eQDox/8A/AX6+3bX86mRuj27bbo3tkOLcw==", "doc"=>{"title"=>"O misterioso caso do planetão e a estrelinha", "content"=>"Um exoplaneta descoberto a apenas 30 anos-luz da Terra deixou os astrônomos coçando a cabeça. Orbitando uma estrela com um décimo da massa do Sol, ele tem pelo menos metade da massa de Júpiter. O problema: pelos modelos mais aceitos de formação planetária, uma estrela desse tamanho não deveria ter um planeta tão grande assim."}, "commit"=>"Update Doc", "id"=>"14"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 6.9ms | Allocations: 5601)
+  Rendered docs/edit.html.haml within layouts/application (Duration: 7.2ms | Allocations: 5724)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.1ms | Allocations: 13186)
+
+
+Started GET "/docs/14" for ::1 at 2019-10-23 16:40:07 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 148)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 6581)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:40:09 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.7ms | Allocations: 1298)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 7339)
+
+
+Started GET "/docs/15" for ::1 at 2019-10-23 16:41:58 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mDoc Load (0.7ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.7ms | Allocations: 6574)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:41:59 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.7ms | Allocations: 1296)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 7340)
+
+
+Started GET "/docs/15" for ::1 at 2019-10-23 16:42:00 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6579)
+
+
+Started GET "/docs" for ::1 at 2019-10-23 16:42:02 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1296)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.1ms | Allocations: 7347)
+
+
+Started GET "/" for ::1 at 2019-10-24 07:40:27 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 7.9ms | Allocations: 3201)
+Completed 200 OK in 930ms (Views: 926.0ms | ActiveRecord: 0.0ms | Allocations: 1359782)
+
+
+Started GET "/" for ::1 at 2019-10-24 07:40:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 5916)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 07:40:35 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 554)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 44.0ms | Allocations: 15693)
+Completed 200 OK in 77ms (Views: 68.0ms | ActiveRecord: 0.5ms | Allocations: 28189)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 07:40:44 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 215)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 8499)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 15475)
+
+
+Started GET "/" for ::1 at 2019-10-24 07:40:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 15)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 5916)
+
+
+Started GET "/" for ::1 at 2019-10-24 08:22:45 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 6.6ms | Allocations: 3124)
+Completed 200 OK in 1135ms (Views: 1131.6ms | ActiveRecord: 0.0ms | Allocations: 1360282)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 08:22:52 -0300
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" IS NULL[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 26.4ms | Allocations: 8825)
+Completed 200 OK in 40ms (Views: 32.8ms | ActiveRecord: 1.1ms | Allocations: 16656)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-24 08:22:54 -0300
+Processing by DocsController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1039)
+
+
+  
+NoMethodError (undefined method `docs' for nil:NilClass):
+  
+app/controllers/docs_controller.rb:13:in `new'
+Started GET "/users/sign_up" for ::1 at 2019-10-24 08:23:10 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 556)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 69.2ms | Allocations: 14050)
+Completed 200 OK in 87ms (Views: 76.4ms | ActiveRecord: 0.6ms | Allocations: 26333)
+
+
+Started POST "/users" for ::1 at 2019-10-24 08:23:40 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"jmiRPli0rLZ0dRo+kuC8KKnX0wvOqvqG8BQgMpruyKYnPTm1XuMzK9yVJU5kisg/LquTn6VY8tXnENhe9urf4g==", "user"=>{"email"=>"1@1.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1@1.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "1@1.com"], ["encrypted_password", "$2a$11$dP4wWUZWsbsl6LEhIwwlJOaZ8DulZ.2ouiTcYfH0vfhErxqMlTYvy"], ["created_at", "2019-10-24 11:23:40.408724"], ["updated_at", "2019-10-24 11:23:40.408724"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 123ms (ActiveRecord: 4.6ms | Allocations: 9142)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 08:24:28 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1949)
+
+
+Started GET "/" for ::1 at 2019-10-24 08:24:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-24 08:24:45 -0300
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13:in `new'
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.2ms | Allocations: 7358)
+  Rendered docs/new.html.haml within layouts/application (Duration: 8.8ms | Allocations: 9047)
+Completed 200 OK in 31ms (Views: 15.4ms | ActiveRecord: 0.1ms | Allocations: 20523)
+
+
+Started POST "/docs" for ::1 at 2019-10-24 08:24:53 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"XMLBj/XAnEe+rjKaBO9NPHhRb1A9213h4spel45QS3D1l2kE85cD2hZODeryhTkr/y0vxFYpVbL1zqb74lRcNA==", "doc"=>{"title"=>"docuser1", "content"=>"a"}, "commit"=>"Create Doc"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:17:in `create'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.3ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "docuser1"], ["content", "a"], ["created_at", "2019-10-24 11:24:53.758508"], ["updated_at", "2019-10-24 11:24:53.758508"], ["user_id", 2]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/18
+Completed 302 Found in 7ms (ActiveRecord: 1.5ms | Allocations: 3492)
+
+
+Started GET "/docs/18" for ::1 at 2019-10-24 08:24:53 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 1.7ms | Allocations: 1957)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.2ms | Allocations: 8548)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 08:24:55 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.4ms | Allocations: 764)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 7496)
+
+
+Started GET "/docs/18" for ::1 at 2019-10-24 08:25:06 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 6554)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 08:25:07 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.6ms | Allocations: 740)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 7489)
+
+
+Started GET "/docs/18" for ::1 at 2019-10-24 08:25:25 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 6565)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 08:25:27 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.4ms | Allocations: 744)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 7480)
+
+
+Started GET "/docs/18" for ::1 at 2019-10-24 08:26:39 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 6554)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 10:25:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.4ms | Allocations: 769)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.7ms | Allocations: 7531)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 10:25:24 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.1ms | Allocations: 748)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.2ms | Allocations: 7481)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 10:25:25 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.4ms | Allocations: 748)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 7480)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-24 10:25:37 -0300
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13:in `new'
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.6ms | Allocations: 5622)
+  Rendered docs/new.html.haml within layouts/application (Duration: 7.8ms | Allocations: 5698)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.1ms | Allocations: 12464)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 11:49:04 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 5.8ms | Allocations: 4026)
+Completed 200 OK in 30ms (Views: 18.5ms | ActiveRecord: 0.8ms | Allocations: 16262)
+
+
+Started GET "/" for ::1 at 2019-10-24 11:49:21 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.2ms | Allocations: 749)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 6550)
+
+
+Started GET "/" for ::1 at 2019-10-24 11:49:23 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.1ms | Allocations: 749)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.1ms | Allocations: 6562)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 11:50:28 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1864)
+
+
+Started GET "/" for ::1 at 2019-10-24 11:50:28 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.3ms | Allocations: 749)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 6552)
+
+
+Started GET "/users/sign_out" for ::1 at 2019-10-24 11:50:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-24 11:59:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.3ms | Allocations: 766)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.1ms | Allocations: 50636)
+
+
+Started GET "/" for ::1 at 2019-10-24 11:59:16 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.4ms | Allocations: 766)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 8113)
+
+
+Started GET "/index" for ::1 at 2019-10-24 11:59:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2019-10-24 11:59:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 7544)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 11:59:35 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.8ms | Allocations: 748)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.4ms | Allocations: 8999)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 11:59:43 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1738)
+
+
+Started GET "/" for ::1 at 2019-10-24 11:59:43 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.9ms | Allocations: 749)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 8070)
+
+
+Started GET "/users/sign_out" for ::1 at 2019-10-24 11:59:46 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/apple/.rbenv/versions/2.6.3/bin/rake:23)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_out" for ::1 at 2019-10-24 12:00:41 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_out" for ::1 at 2019-10-24 12:00:42 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-24 12:09:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 4.9ms | Allocations: 4150)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.5ms | Allocations: 12236)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: normalize.
+Load paths:
+  /Users/apple/rails/RoR/cabinet/app/assets/config
+  /Users/apple/rails/RoR/cabinet/app/assets/images
+  /Users/apple/rails/RoR/cabinet/app/assets/stylesheets
+  /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actioncable-6.0.0/app/assets/javascripts
+  /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activestorage-6.0.0/app/assets/javascripts
+  /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionview-6.0.0/lib/assets/compiled
+  /Users/apple/rails/RoR/cabinet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.css.scss:4
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-10-24 12:10:32 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.9ms | Allocations: 749)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms | Allocations: 6369)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: normalize.css.scss.
+Load paths:
+  /Users/apple/rails/RoR/cabinet/app/assets/config
+  /Users/apple/rails/RoR/cabinet/app/assets/images
+  /Users/apple/rails/RoR/cabinet/app/assets/stylesheets
+  /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actioncable-6.0.0/app/assets/javascripts
+  /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activestorage-6.0.0/app/assets/javascripts
+  /Users/apple/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionview-6.0.0/lib/assets/compiled
+  /Users/apple/rails/RoR/cabinet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.css.scss:4
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-10-24 12:10:49 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.6ms | Allocations: 749)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/docs.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/welcome.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.1ms | Allocations: 44733)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'bold_font'.):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/welcome.css.scss:17:in `bold_font'
+app/assets/stylesheets/welcome.css.scss:17
+app/assets/stylesheets/application.css.scss:7
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-10-24 12:11:38 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.3ms | Allocations: 749)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.1ms | Allocations: 22597)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'bold_font'.):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/global.css.scss:107:in `bold_font'
+app/assets/stylesheets/global.css.scss:107
+app/assets/stylesheets/application.css.scss:5
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-10-24 12:17:03 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.2ms | Allocations: 749)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/docs.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/welcome.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/docs.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/welcome.css.scss to /Users/apple/rails/RoR/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__3581008239415279933_70213304602240 at /Users/apple/rails/RoR/cabinet/app/views/layouts/application.html.erb:8)
+Completed 200 OK in 67ms (Views: 66.9ms | ActiveRecord: 0.1ms | Allocations: 55925)
+
+
+Started GET "/docs/18" for ::1 at 2019-10-24 12:17:06 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 147)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.2ms | Allocations: 5236)
+
+
+Started GET "/docs" for ::1 at 2019-10-24 12:17:08 -0300
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:6:in `index'
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.6ms | Allocations: 748)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.3ms | Allocations: 6028)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-24 12:17:10 -0300
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13:in `new'
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 7.8ms | Allocations: 5704)
+  Rendered docs/new.html.haml within layouts/application (Duration: 8.0ms | Allocations: 5780)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.1ms | Allocations: 11891)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:17:18 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.7ms | Allocations: 749)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 5092)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:30:40 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.1ms | Allocations: 2621)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms | Allocations: 5504)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title MyNotes | You Life On Rails!
+    5:     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    6:     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+    7: %body
+    8:   %header
+  
+app/views/layouts/application.html.haml:5
+Started GET "/" for ::1 at 2019-10-24 12:31:43 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.8ms | Allocations: 2601)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms | Allocations: 5484)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title MyNotes | You Life On Rails!
+    5:     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track'. => true
+    6:     = javascript_pack_tag 'application', 'data-turbolinks-track', => true
+    7: %body
+    8:   %header
+  
+app/views/layouts/application.html.haml:5
+Started GET "/" for ::1 at 2019-10-24 12:33:31 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.7ms | Allocations: 2601)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms | Allocations: 7636)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check !!!
+%html
+%head
+  %title MyNotes | You Life On Rails!
+  = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track'. => true
+  = javascript_pack_tag 'application', 'data-turbolinks-track', => true
+
+%body
+  %header
+    .header_inner
+      = link_to "MyNotes", root_path
+
+      %nav
+        - if user_signed_in?
+          = link_to "Create Doc", new_doc_path
+          = link_to "Sign Out", destroy_user_session_path, method: :delete
+        
+        - else
+          = link_to "Log In", new_user_session_path
+
+
+    %p.notice= notice
+    %p.alert= alert
+= yield 
+):
+1:    !!!
+2:    %html
+3:    %head
+4:      %title MyNotes | You Life On Rails!
+5:      = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track'. => true
+6:      = javascript_pack_tag 'application', 'data-turbolinks-track', => true
+7:    
+8:    %body
+9:      %header
+10:        .header_inner
+11:          = link_to "MyNotes", root_path
+12:    
+13:          %nav
+14:            - if user_signed_in?
+15:              = link_to "Create Doc", new_doc_path
+16:              = link_to "Sign Out", destroy_user_session_path, method: :delete
+17:            
+18:            - else
+19:              = link_to "Log In", new_user_session_path
+20:    
+21:    
+22:        %p.notice= notice
+23:        %p.alert= alert
+24:    = yield 
+  
+app/views/layouts/application.html.haml:5: syntax error, unexpected =>
+app/views/layouts/application.html.haml:6: syntax error, unexpected =>
+app/views/layouts/application.html.haml:5: syntax error, unexpected =>
+app/views/layouts/application.html.haml:6: syntax error, unexpected =>
+app/views/layouts/application.html.haml:5: syntax error, unexpected =>
+app/views/layouts/application.html.haml:6: syntax error, unexpected =>
+app/views/layouts/application.html.haml:5: syntax error, unexpected =>
+app/views/layouts/application.html.haml:6: syntax error, unexpected =>
+app/views/layouts/application.html.haml:5: syntax error, unexpected =>
+app/views/layouts/application.html.haml:6: syntax error, unexpected =>
+app/views/layouts/application.html.haml:5: syntax error, unexpected =>
+app/views/layouts/application.html.haml:6: syntax error, unexpected =>
+Started GET "/" for ::1 at 2019-10-24 12:34:11 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.3ms | Allocations: 2601)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 10864)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-10-24 12:34:19 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.1ms | Allocations: 2113)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+devise (4.7.1) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.0) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.0) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.0) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.0) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.0) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-24 12:35:28 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.4ms | Allocations: 751)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 5132)
+
+
+Started GET "/docs/new" for ::1 at 2019-10-24 12:35:29 -0300
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13:in `new'
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (Duration: 8.1ms | Allocations: 7070)
+  Rendered docs/new.html.haml within layouts/application (Duration: 10.8ms | Allocations: 8803)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.1ms | Allocations: 14286)
+
+
+Started POST "/docs" for ::1 at 2019-10-24 12:35:42 -0300
+Processing by DocsController#create as HTML
+  Parameters: {"authenticity_token"=>"ph61LmoDNb0U3iWdDZAq5DxVEp0Ncpu/c9Qjt2KbXREsWzBKRZS/Zch9LzZPZg9QfYIW+IuEvUrXqCwll6NVpA==", "doc"=>{"title"=>"Criando Novo Doc", "content"=>"Ficou Legal."}, "commit"=>"Create Doc"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:17:in `create'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[36mDoc Create (0.3ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Criando Novo Doc"], ["content", "Ficou Legal."], ["created_at", "2019-10-24 15:35:42.869647"], ["updated_at", "2019-10-24 15:35:42.869647"], ["user_id", 2]]
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19:in `create'
+Redirected to http://localhost:3000/docs/19
+Completed 302 Found in 8ms (ActiveRecord: 1.7ms | Allocations: 3487)
+
+
+Started GET "/docs/19" for ::1 at 2019-10-24 12:35:42 -0300
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:46:in `find_doc'
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (Duration: 2.0ms | Allocations: 1943)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:14
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 7840)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:35:45 -0300
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.6ms | Allocations: 877)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 5257)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:35:54 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 2.0ms | Allocations: 876)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 5255)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:35:55 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 1.9ms | Allocations: 876)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms | Allocations: 5255)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-10-24 12:35:59 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.1ms | Allocations: 2052)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+devise (4.7.1) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.0) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.0) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.0) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.0) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.0) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/users/sign_out" for ::1 at 2019-10-24 12:59:26 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.3ms | Allocations: 2076)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+devise (4.7.1) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (6.0.0) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.0) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.0) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.0) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.0) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.0) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.0) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2019-10-24 12:59:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-24 12:59:33 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (Duration: 3.7ms | Allocations: 2753)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 11045)
+
+
+Started DELETE "/users/sign_out?authenticity_token=vz8Klj41MS34bGyEcBDXi4LbZ2zT0fHtAY4%2Bb3u%2BWTIWaqIdOGKusFCMU%2FSGeqOcBacn%2BLgj%2Bb4WisYDF7pOdg%3D%3D" for ::1 at 2019-10-24 12:59:34 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vz8Klj41MS34bGyEcBDXi4LbZ2zT0fHtAY4+b3u+WTIWaqIdOGKusFCMU/SGeqOcBacn+Lgj+b4WisYDF7pOdg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.2ms | Allocations: 4437)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:59:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 1.1ms | Allocations: 1421)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 6338)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 12:59:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 627)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.9ms | Allocations: 9209)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 14941)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 12:59:40 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 6243)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 11589)
+
+
+Started GET "/" for ::1 at 2019-10-24 12:59:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4346)
+
+
+Started GET "/" for ::1 at 2019-10-24 13:00:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4336)
+
+
+Started GET "/" for ::1 at 2019-10-24 14:51:04 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4336)
+
+
+Started GET "/" for ::1 at 2019-10-24 14:51:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4336)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 14:51:06 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 33.2ms | Allocations: 7930)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms | Allocations: 12597)
+
+
+Started GET "/" for ::1 at 2019-10-24 14:51:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4336)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 14:51:27 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.0ms | Allocations: 7918)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 12573)
+
+
+Started GET "/" for ::1 at 2019-10-24 14:51:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 4336)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 14:51:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.9ms | Allocations: 7916)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 12565)
+
+
+Started GET "/users/password/new" for ::1 at 2019-10-24 14:51:38 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 142)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3364)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8643)
+
+
+Started GET "/" for ::1 at 2019-10-24 14:51:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4346)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/apple/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/users/sign_in" for ::1 at 2019-10-24 14:59:16 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 8701)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 17712)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 14:59:18 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 6271)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 11531)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 15:00:54 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.0ms | Allocations: 8700)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 17780)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:00:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 1.5ms | Allocations: 1462)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6402)
+
+
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2019-10-24 15:40:41 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4494)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 15:40:46 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 146)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 7951)
+Completed 200 OK in 42ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 17610)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 15:40:48 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 6252)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 11626)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4369)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 15:40:50 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.3ms | Allocations: 7926)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 12616)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:40:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 15:40:57 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 7916)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 12589)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-24 15:40:57 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 6014)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 10621)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-24 15:41:04 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 10.9ms | Allocations: 7916)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 12589)
+
+
+Started GET "/" for ::1 at 2019-10-24 15:41:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4358)
+
+
