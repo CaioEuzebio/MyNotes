@@ -15,14 +15,14 @@
 		text-align: center;
 		h1 {
 			@include bold_font;
-			color: white;
+			color: #33CD99;
 			font-size: 3.5rem;
 			margin: 0;
 		}
 		p {
 			font-size: 1.5rem;
 			margin: 0 0 2.5rem 0;
-			color: rgba(250, 250, 250, 0.5);
+			color: #33CD99;
 		}
 	}
 }
