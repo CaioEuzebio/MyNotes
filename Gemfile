@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.0'
 
 gem 'sqlite3', '~> 1.4'
 
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 
 gem 'sass-rails', '~> 5'
 
